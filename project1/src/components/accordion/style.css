@@ -1,0 +1,34 @@
+.accordion {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.acc-item {
+    margin-bottom: 20px;
+}
+
+.acc-item .title {
+    background-color: #df9b41;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.acc-item .title span {
+    transform: scale(2);
+    font-weight: bold;
+}
+
+.acc-content {
+    background-color: #df9b41;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 15px;
+    border-top: 1px solid #ffffff;
+}
+
+.multi-sel-btn {
+    background-color: #26998a;
+    color: #ffffff;
+    font-size: 18px;
+}
