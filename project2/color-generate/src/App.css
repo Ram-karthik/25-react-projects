@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.btn-grp {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  height: 44px;
+  background-color: #3B71CA;
+  border: none;
+  color: #ffffff;
+}
