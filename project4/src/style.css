@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%;
+}
+
+.arr {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+}
+
+.arr-right {
+    right: 1rem;
+}
+
+.arr-left {
+    left: 1rem;
+}
+
+.circle-indicators {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.crt-ind {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    color: #ffffff54;
+    border-radius: 100%;
+    border: none;
+}
+
+.hideSlide {
+    display: none;
+}
+
+.hide-ind {
+    opacity: 0.2;
+}
